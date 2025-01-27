@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_2
+  m_EditorClassIdentifier: 
+  version: 1
+  sku: 6797fbf01f942e7ff2fd183e
+  packageName: Tema 1 Kids - Central
+  thumbnail: {fileID: 2800000, guid: e901598a55bd52a4a8abcc099766557b, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  worldID: ggzd2klm3ki7rwrgvqncj
+  scene: {fileID: 102900000, guid: e44b83d7e8b059441a816875176ff4b6, type: 3}
+  csharpAssembly: {fileID: 5897886265953266890, guid: 6e618b67029a8d843a598c5e2b5fc48e,
+    type: 3}
+  embeddedPackageAssets: []
+  networkPrefabs: []
+  settings:
+    serverInstancingEnabled: 1
+    serverCapacitySetting: 1
+    serverInstanceCapacity: 16

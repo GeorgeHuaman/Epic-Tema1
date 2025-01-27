@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ProjectConfig
   m_EditorClassIdentifier: 
   _configVersion: 1
-  _defaultWorldID: 
+  _defaultWorldID: ggzd2klm3ki7rwrgvqncj
   _packages:
   - {fileID: 11400000, guid: f9f137dea7f63477ba0010b47000a828, type: 2}
   - {fileID: 11400000, guid: 72ffea1652c674c0a9800acaee82a68a, type: 2}
@@ -23,3 +23,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9329ff968d6af49cc8ba2a95ce7513ba, type: 2}
   - {fileID: 11400000, guid: fd10a052dfd314426b1acf919c98a9e9, type: 2}
   - {fileID: 11400000, guid: 49d0a134c7399441c8ef5c13203a1186, type: 2}
+  - {fileID: 11400000, guid: 88b6092f8af379c40a2a9b0cd93c110f, type: 2}
+  - {fileID: 11400000, guid: 3c815d852686b3344bded90037100f0e, type: 2}
+  - {fileID: 11400000, guid: 81e1fa5755eae5f4dbacce6b2de3695d, type: 2}
+  - {fileID: 11400000, guid: 3d0fec72ac96c084fa11aaf4465927b2, type: 2}
+  - {fileID: 11400000, guid: 5c57a56850cff8945a71c6e6df4f1f1a, type: 2}
+  - {fileID: 11400000, guid: c4700593f6d816041b05dd09c04035a5, type: 2}
+  - {fileID: 11400000, guid: 7504196966d7206418f8fb0d565de396, type: 2}
+  - {fileID: 11400000, guid: a8283d0b3429f87488b47995b2e07d45, type: 2}
+  - {fileID: 11400000, guid: 85c77277b798d3a4da0d76452dd0a4bf, type: 2}
