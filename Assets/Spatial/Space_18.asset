@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_18
+  m_EditorClassIdentifier: 
+  version: 1
+  sku: 679aa6d23b620634e9c5c10c
+  packageName: "Canc\xFAn  Subsala 1 Old 1\xB0T"
+  thumbnail: {fileID: 2800000, guid: dc3b6686cceaa634ba3af9c18885e882, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  worldID: ggzd2klm3ki7rwrgvqncj
+  scene: {fileID: 102900000, guid: cf5e71ed1742e7b45bf13c6f91c50a2c, type: 3}
+  csharpAssembly: {fileID: 5897886265953266890, guid: 6e618b67029a8d843a598c5e2b5fc48e,
+    type: 3}
+  embeddedPackageAssets: []
+  networkPrefabs: []
+  settings:
+    serverInstancingEnabled: 1
+    serverCapacitySetting: 0
+    serverInstanceCapacity: 16
