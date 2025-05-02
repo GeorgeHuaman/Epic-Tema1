@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    private bool startDialogue;
+    [HideInInspector]public bool startDialogue;
     public List<LineDialogue> lineasDeDialogo;
     public AudioSource audioSource;
 
@@ -29,7 +29,7 @@ public class NPC : MonoBehaviour
     {
         if (!startDialogue)
         {
-            controller.StopAudios();
+           controller.StopAudios();
            controller.coroutine = StartCoroutine(ReproducirDialogo());
         }
     }

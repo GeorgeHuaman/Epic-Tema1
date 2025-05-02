@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Proyectos\\Epic-Tema1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|e:\\proyectos\\epic-tema1\\assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|E:\\Proyectos\\Epic-Tema1\\assets\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|e:\\proyectos\\epic-tema1\\assets\\scripts\\ui\\imageinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\ui\\imageinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|e:\\proyectos\\epic-tema1\\assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ControllerAudio.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\ControllerAudio.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControllerAudio.cs",
               "ToolTip": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\ControllerAudio.cs",
               "RelativeToolTip": "Assets\\Scripts\\ControllerAudio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T01:06:38.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NPC.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\NPC.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPC.cs",
               "ToolTip": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\NPC.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPC.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wCUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T00:31:54.201Z",
               "EditorCaption": ""
@@ -58,13 +58,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ImageInteractuable.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\UI\\ImageInteractuable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ImageInteractuable.cs",
               "ToolTip": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\UI\\ImageInteractuable.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ImageInteractuable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T20:53:26.891Z",
               "EditorCaption": ""

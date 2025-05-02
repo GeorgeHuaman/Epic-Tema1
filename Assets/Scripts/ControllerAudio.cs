@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControllerAudio : MonoBehaviour
 {
+    public List<NPC> npcs = new List<NPC>();
     public List<AudioSource> sources;
     public Coroutine coroutine;
     // Start is called before the first frame update
@@ -27,6 +28,8 @@ public class ControllerAudio : MonoBehaviour
         for (int i = 0; i < sources.Count; i++)
         {
             sources[i].Stop();
+            npcs[i].startDialogue = false;
+            
         }
     }
 }
