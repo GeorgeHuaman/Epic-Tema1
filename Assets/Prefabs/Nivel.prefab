@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76849702}
+  - component: {fileID: 2489464919176431409}
   m_Layer: 0
   m_Name: Npcs
   m_TagString: Untagged
@@ -39,6 +40,27 @@ Transform:
   m_Father: {fileID: 220920626124204463}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2489464919176431409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76849701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd7efe2ca79199448e80b6674f4741c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sources:
+  - {fileID: 8433237559569814593}
+  - {fileID: 8433237561084883372}
+  - {fileID: 8433237561057319200}
+  - {fileID: 8433237561114873222}
+  - {fileID: 8433237560851513141}
+  - {fileID: 8433237561058393274}
+  - {fileID: 8433237560539826509}
+  - {fileID: 8433237559548088816}
 --- !u!1 &2158253577993251585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,11 +1181,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 76849702}
     m_Modifications:
+    - target: {fileID: 1493122906, guid: bbe99c2d19ee08d45983f32f5706cb05, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1839944410}
+    - target: {fileID: 1493122906, guid: bbe99c2d19ee08d45983f32f5706cb05, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493122906, guid: bbe99c2d19ee08d45983f32f5706cb05, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 1650034435, guid: bbe99c2d19ee08d45983f32f5706cb05, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 1650034435, guid: bbe99c2d19ee08d45983f32f5706cb05, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 367620161393518731, guid: bbe99c2d19ee08d45983f32f5706cb05,
         type: 3}
       propertyPath: m_RootOrder
@@ -1232,6 +1270,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8433237559475469241}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &8433237561058393274 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1650034435, guid: bbe99c2d19ee08d45983f32f5706cb05,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237559475469241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8888202252390877576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1031847932763157041, guid: bbe99c2d19ee08d45983f32f5706cb05,
@@ -1259,6 +1303,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1839944410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8888202252390877576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: e18a85e545eebb9498175e4810049f48, type: 3}
+    text: 
+  audioSource: {fileID: 8433237561058393274}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
 --- !u!1001 &8433237559798314559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1271,6 +1334,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 1392081849, guid: 45931fc13ed4101419c559d039b9c608, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975120596, guid: 45931fc13ed4101419c559d039b9c608, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1839944412}
+    - target: {fileID: 1975120596, guid: 45931fc13ed4101419c559d039b9c608, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975120596, guid: 45931fc13ed4101419c559d039b9c608, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 1724445262047490931, guid: 45931fc13ed4101419c559d039b9c608,
         type: 3}
       propertyPath: m_RootOrder
@@ -1360,9 +1439,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1839944412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126547517049701706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: 3dc3271be40841c4da796271927ce275, type: 3}
+    text: 
+  audioSource: {fileID: 8433237561114873222}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
 --- !u!4 &7126547517049701708 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1724445262047490931, guid: 45931fc13ed4101419c559d039b9c608,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237559798314559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8433237561114873222 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1392081849, guid: 45931fc13ed4101419c559d039b9c608,
     type: 3}
   m_PrefabInstance: {fileID: 8433237559798314559}
   m_PrefabAsset: {fileID: 0}
@@ -1803,11 +1907,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 76849702}
     m_Modifications:
+    - target: {fileID: 1651139046, guid: 67f5d67fdc25cb94680e953686afdc1f, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 620239511}
+    - target: {fileID: 1651139046, guid: 67f5d67fdc25cb94680e953686afdc1f, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651139046, guid: 67f5d67fdc25cb94680e953686afdc1f, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 2078567488, guid: 67f5d67fdc25cb94680e953686afdc1f, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 2078567488, guid: 67f5d67fdc25cb94680e953686afdc1f, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1213179512695129765, guid: 67f5d67fdc25cb94680e953686afdc1f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1903,6 +2023,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &620239511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968314815726287122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: 6bf3ea9f7dc1708499c2437d699541fe, type: 3}
+    text: 
+  audioSource: {fileID: 8433237560539826509}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
+--- !u!82 &8433237560539826509 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2078567488, guid: 67f5d67fdc25cb94680e953686afdc1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237560122221837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8433237560133940336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1915,6 +2060,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 1464519493, guid: 5558936f13be33446a7515000f16ca74, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639493793, guid: 5558936f13be33446a7515000f16ca74, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1839944411}
+    - target: {fileID: 1639493793, guid: 5558936f13be33446a7515000f16ca74, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639493793, guid: 5558936f13be33446a7515000f16ca74, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 6419270026973207792, guid: 5558936f13be33446a7515000f16ca74,
         type: 3}
       propertyPath: m_Name
@@ -2004,9 +2165,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1839944411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3178755139356797056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: c419bd093ee77d042ba6077462ffd1af, type: 3}
+    text: 
+  audioSource: {fileID: 8433237560851513141}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
 --- !u!4 &3178755139356797062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6419270026973207798, guid: 5558936f13be33446a7515000f16ca74,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237560133940336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8433237560851513141 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1464519493, guid: 5558936f13be33446a7515000f16ca74,
     type: 3}
   m_PrefabInstance: {fileID: 8433237560133940336}
   m_PrefabAsset: {fileID: 0}
@@ -2017,11 +2203,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 76849702}
     m_Modifications:
+    - target: {fileID: 473515310, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1846839776949854160}
+    - target: {fileID: 473515310, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 473515310, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 623915113, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 623915113, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7829976467448159765, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5,
+        type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 2489464919176431409}
     - target: {fileID: 8644977931468143246, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5,
         type: 3}
       propertyPath: m_Name
@@ -2090,6 +2297,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8433237560494522821}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1846839776949854160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7829976467448159765, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237560494522821}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &8433237561084883372 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 623915113, guid: 70ff7ae4a352c6b41b72bdd8acdad6b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237560494522821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8433237560834518969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2097,11 +2322,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 76849702}
     m_Modifications:
+    - target: {fileID: 939436890, guid: 2c0080657600d934e83f27d7ddb363c6, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1508172016}
+    - target: {fileID: 939436890, guid: 2c0080657600d934e83f27d7ddb363c6, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 939436890, guid: 2c0080657600d934e83f27d7ddb363c6, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 1935507017, guid: 2c0080657600d934e83f27d7ddb363c6, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 1935507017, guid: 2c0080657600d934e83f27d7ddb363c6, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2551694777515530641, guid: 2c0080657600d934e83f27d7ddb363c6,
         type: 3}
       propertyPath: m_RootOrder
@@ -2197,6 +2438,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1508172016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224414490030356010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: 6b448c732d28aa24faeacdb87fe66ca3, type: 3}
+    text: 
+  audioSource: {fileID: 8433237559548088816}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
+--- !u!82 &8433237559548088816 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1935507017, guid: 2c0080657600d934e83f27d7ddb363c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237560834518969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8433237561227841028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,6 +2475,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 1674811973, guid: 535f7276bf81dde48975e3bb81705ed4, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 572011707297332562, guid: 535f7276bf81dde48975e3bb81705ed4,
         type: 3}
       propertyPath: m_Name
@@ -2269,6 +2539,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4887345192562539609, guid: 535f7276bf81dde48975e3bb81705ed4,
+        type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 2489464919176431409}
+    - target: {fileID: 4887345192562539609, guid: 535f7276bf81dde48975e3bb81705ed4,
+        type: 3}
+      propertyPath: lineasDeDialogo.Array.data[0].text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 535f7276bf81dde48975e3bb81705ed4, type: 3}
 --- !u!4 &8284601847397086032 stripped
@@ -2304,6 +2584,12 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &8433237559569814593 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1674811973, guid: 535f7276bf81dde48975e3bb81705ed4,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237561227841028}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8433237561264681341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2316,6 +2602,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8663463407411171230, guid: 0461beb79fbfa4735867cac3f1f81cd2,
         type: 2}
+    - target: {fileID: 350496861, guid: effec6476729a9d4b842bda39ae1fb14, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 777188758, guid: effec6476729a9d4b842bda39ae1fb14, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1839944413}
+    - target: {fileID: 777188758, guid: effec6476729a9d4b842bda39ae1fb14, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 777188758, guid: effec6476729a9d4b842bda39ae1fb14, type: 3}
+      propertyPath: onInteractEvent.unityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPC, NewAssembly
+      objectReference: {fileID: 0}
     - target: {fileID: 3852837353172114285, guid: effec6476729a9d4b842bda39ae1fb14,
         type: 3}
       propertyPath: m_Name
@@ -2405,9 +2707,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1839944413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643466069187996176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: c268fa921fa52cd4ea9d74a7a93b6562, type: 3}
+    text: 
+  audioSource: {fileID: 8433237561057319200}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 2489464919176431409}
 --- !u!4 &4643466069187996178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3852837353172114287, guid: effec6476729a9d4b842bda39ae1fb14,
+    type: 3}
+  m_PrefabInstance: {fileID: 8433237561264681341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8433237561057319200 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 350496861, guid: effec6476729a9d4b842bda39ae1fb14,
     type: 3}
   m_PrefabInstance: {fileID: 8433237561264681341}
   m_PrefabAsset: {fileID: 0}

@@ -2887,6 +2887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572011707297332564}
   - component: {fileID: 546097901}
+  - component: {fileID: 4887345192562539609}
   m_Layer: 0
   m_Name: NPC Mujer 2
   m_TagString: Untagged
@@ -2939,9 +2940,9 @@ MonoBehaviour:
     unityEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1674811973}
-          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: Play
+        - m_Target: {fileID: 4887345192562539609}
+          m_TargetAssemblyTypeName: NPC, NewAssembly
+          m_MethodName: Audio
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2975,6 +2976,34 @@ MonoBehaviour:
       events: []
     questEvent:
       events: []
+--- !u!114 &4887345192562539609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572011707297332562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: dd41d7da1a89c8043ae2e00f130aebc5, type: 3}
+    text: "Bienvenido a una nueva aventura, en esta aventura, lo m\xE1s emocionante
+      es que vas a descubrir cosas incre\xEDbles sobre ti mismo, tus talentos, lo
+      que haces muy bien, y tus virtudes, lo bueno que hay en ti, como ser valiente
+      o generoso, con eso vas a poder inventar una gran idea, y que vas a encontrar
+      en esta sala. Aqu\xED conocer\xE1s a tres emprendedores. Personas que han creado
+      cosas geniales.\r\nEllos te contar\xE1n sus historias, lo que hacen bien, lo
+      que aprendieron cuando algo no sali\xF3 como esperaban, y c\xF3mo usan sus
+      talentos. Mientras caminas, te vas a encontrar con personas que te dar\xE1n
+      pistas, consejos y te ayudar\xE1n a seguir por el camino correcto, prep\xE1rate,
+      peque\xF1o aventurero, buena suerte."
+  audioSource: {fileID: 1674811973}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 0}
 --- !u!1 &572011707298358081
 GameObject:
   m_ObjectHideFlags: 0

@@ -2828,6 +2828,7 @@ GameObject:
   - component: {fileID: 8985509243395219508}
   - component: {fileID: 473515310}
   - component: {fileID: 2324299210220292860}
+  - component: {fileID: 7829976467448159765}
   m_Layer: 0
   m_Name: NPC Hombre 2
   m_TagString: Untagged
@@ -2937,6 +2938,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7829976467448159765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644977931468143246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857bab03a42e9194c99fb04250f3cb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - clip: {fileID: 8300000, guid: 97771215346792049898c88a542f977c, type: 3}
+    text: 
+  audioSource: {fileID: 623915113}
+  player: {fileID: 0}
+  delayEntreLineas: 1
+  controller: {fileID: 0}
 --- !u!1 &8709854837154229672
 GameObject:
   m_ObjectHideFlags: 0
