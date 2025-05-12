@@ -9159,7 +9159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   version: 2
-  questName: Encuentra a los 3 emprenderores
+  questName: Tema 1
   description: Encuentra a los 3 emprenderores ocultos en el laberinto, conoce sobre
     ellos para completar este tema
   startAutomatically: 1
@@ -10024,7 +10024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   version: 2
-  questName: Termina el Laberinto
+  questName: Tema 1
   description: Una vez terminado de encontrar a los 3 emprendedores llega al otro
     lado del laberinto
   startAutomatically: 0
