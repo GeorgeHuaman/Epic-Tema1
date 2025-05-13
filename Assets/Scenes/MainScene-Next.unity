@@ -2063,6 +2063,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrefabImages Next_Old
       objectReference: {fileID: 0}
+    - target: {fileID: 4005429170535876165, guid: 033f9846f231b24438d23bea8063f2a7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f82d3f808b6c72b46bc380e8722a2060,
+        type: 3}
+    - target: {fileID: 4005429170912456395, guid: 033f9846f231b24438d23bea8063f2a7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f82d3f808b6c72b46bc380e8722a2060,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 033f9846f231b24438d23bea8063f2a7, type: 3}
 --- !u!1001 &2566105581882131497

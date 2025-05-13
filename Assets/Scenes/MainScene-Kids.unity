@@ -190,6 +190,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PrefabImages Genuine_Kids
       objectReference: {fileID: 0}
+    - target: {fileID: 9098112677838525673, guid: 78c5adbcea7078349aaa52bc33fee68c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc1a9e25048462542bdf09854b8cf34a,
+        type: 3}
+    - target: {fileID: 9098112678624428235, guid: 78c5adbcea7078349aaa52bc33fee68c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc1a9e25048462542bdf09854b8cf34a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c5adbcea7078349aaa52bc33fee68c, type: 3}
 --- !u!1001 &362867597

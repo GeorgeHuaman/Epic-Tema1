@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "E:\\Proyectos\\Epic-Tema1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\Epic-Tema1\\Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|E:\\Proyectos\\Epic-Tema1\\assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|e:\\proyectos\\epic-tema1\\assets\\scripts\\ui\\imageuiactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos\\Epic-Tema1\\Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|E:\\Proyectos\\Epic-Tema1\\assets\\scripts\\ui\\imageuiactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\ui\\imageuiactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 290,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\ImageUiActive.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:53:59.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T17:53:59.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SpatialTriggerEvent.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Tema1\\Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs",
@@ -64,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ControllerAudio.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Tema1\\Assets\\Scripts\\ControllerAudio.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControllerAudio.cs",

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "E:\\Proyectos\\Epic-Tema1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|E:\\Proyectos\\Epic-Tema1\\assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|e:\\proyectos\\epic-tema1\\assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3F7CCA-5DD3-96DE-8E86-2F5DF3706B08}|NewAssembly.csproj|solutionrelative:assets\\scripts\\controlleraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "Library\\PackageCache\\io.spatial.unitysdk@1.67.0\\Runtime\\CoreModule\\Components\\SpatialTriggerEvent.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:48:08.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:48:08.294Z"
             },
             {
               "$type": "Document",

@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 3dc3271be40841c4da796271927ce275, type: 3}
+  - clip: {fileID: 8300000, guid: 3d692101f18ee854e842fa8f6dafe90e, type: 3}
     text: 
   audioSource: {fileID: 2039015391835743381}
   player: {fileID: 0}
@@ -5319,7 +5319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 97771215346792049898c88a542f977c, type: 3}
+  - clip: {fileID: 8300000, guid: 8b64aadbe07c9b34ea2e850724aa8708, type: 3}
     text: 
   audioSource: {fileID: 7468365107975913195}
   player: {fileID: 0}
@@ -7671,7 +7671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 3dc3271be40841c4da796271927ce275, type: 3}
+  - clip: {fileID: 8300000, guid: c4162b51b99f29548af16104c018fd28, type: 3}
     text: 
   audioSource: {fileID: 2566105582629379139}
   player: {fileID: 0}
@@ -12810,7 +12810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: dd41d7da1a89c8043ae2e00f130aebc5, type: 3}
+  - clip: {fileID: 8300000, guid: ce75e8ffefc22fe44b91a99166da007d, type: 3}
     text: 
   audioSource: {fileID: 2566105581774034357}
   player: {fileID: 0}
@@ -14189,7 +14189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 034b06303e0659846b117f58bb8be945, type: 3}
+  - clip: {fileID: 8300000, guid: 2ec344e7a8ad6c1499b4693e9c4fc26c, type: 3}
     text: 
   audioSource: {fileID: 7743968181053595664}
   player: {fileID: 0}
@@ -14521,7 +14521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: c419bd093ee77d042ba6077462ffd1af, type: 3}
+  - clip: {fileID: 8300000, guid: 9f6c024ed9a35524ebc512cf2a926cf0, type: 3}
     text: 
   audioSource: {fileID: 9173498210718328611}
   player: {fileID: 0}
@@ -18404,7 +18404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 62a2479d73bca5c40ae324901af71b02, type: 3}
+  - clip: {fileID: 8300000, guid: 60b8b94abc745f141ba2494f7fbd1422, type: 3}
     text: 
   audioSource: {fileID: 301994189247443709}
   player: {fileID: 0}
@@ -24943,7 +24943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: c268fa921fa52cd4ea9d74a7a93b6562, type: 3}
+  - clip: {fileID: 8300000, guid: 4e911c7cc6c6ef84dab0d4879a4a2642, type: 3}
     text: 
   audioSource: {fileID: 9099358885834330942}
   player: {fileID: 0}
@@ -26610,7 +26610,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6748880905452958306}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -27575,7 +27575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 6bf3ea9f7dc1708499c2437d699541fe, type: 3}
+  - clip: {fileID: 8300000, guid: ed68bd0669b8cff47a6f84014e5faf44, type: 3}
     text: 
   audioSource: {fileID: 9053084223688655527}
   player: {fileID: 0}
@@ -29125,7 +29125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 6b448c732d28aa24faeacdb87fe66ca3, type: 3}
+  - clip: {fileID: 8300000, guid: 1b11e926838ee3d4c84b9526ad1c4332, type: 3}
     text: 
   audioSource: {fileID: 4980177634833864744}
   player: {fileID: 0}
@@ -33312,7 +33312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: dd41d7da1a89c8043ae2e00f130aebc5, type: 3}
+  - clip: {fileID: 8300000, guid: 2ef8948a4fedd424ca2b789e68dfe8a0, type: 3}
     text: 
   audioSource: {fileID: 8335900707794960927}
   player: {fileID: 0}
@@ -35743,7 +35743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogue: 0
   lineasDeDialogo:
-  - clip: {fileID: 8300000, guid: 7a16005f54206a744b0182f11efed2e2, type: 3}
+  - clip: {fileID: 8300000, guid: 21f93b3856ca1a24fa41ad76a464f914, type: 3}
     text: 
   audioSource: {fileID: 6935710780974845810}
   player: {fileID: 0}
